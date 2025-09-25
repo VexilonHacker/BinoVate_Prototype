@@ -34,11 +34,6 @@ SmartTrash comes with a responsive web UI that displays:
 ![WebUI Dark with Graph](./imgs/webui_dark_gr.png)
 
 ---
-
-## 📱 Mobile App UI
-
-The SmartTrash **Android app** complements the web dashboard, allowing users and administrators to monitor bins on the go.
-
 ## 📱 Mobile App UI
 
 The SmartTrash **Android app** complements the web dashboard, allowing users and administrators to monitor bins on the go.
