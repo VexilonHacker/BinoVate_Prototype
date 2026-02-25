@@ -1,76 +1,102 @@
-# SmartTrash 🚮♻️
+# 🚮 SmartTrash – IoT Waste Management System
 
-SmartTrash is an IoT-powered waste management solution designed to make cities cleaner and smarter.  
-It monitors **solar-powered trash bins** in real time, tracking **fill levels**, **bin door status**, and **location** using multiple sensors and a web dashboard.
+SmartTrash is an IoT-based intelligent waste management prototype designed to support smart city infrastructure by enabling real-time monitoring of waste bin conditions.
+
+The system monitors **solar-powered trash bins** in real time, tracking fill level status, door security state, and geographic location using multiple integrated sensors.
 
 ---
 
 ## 📸 Prototype Images
 
 ### Hardware Prototype
-- Forward view of the SmartTrash prototype  
-  ![Prototype Forward](./imgs/prototype_forward.png)
 
-- Top view of the SmartTrash prototype  
-  ![Prototype Top](./imgs/prototype_up.png)
+| ![](./imgs/proto_up.jpeg) | ![](./imgs/proto_op_foc.jpeg) | ![](./imgs/proto_op.jpeg) |
+|---------------------------|---------------------------|---------------------------|
 
 ---
 
 ## 🌐 Web Dashboard
 
-SmartTrash comes with a responsive web UI that displays:
-- **Real-time bin locations** on an interactive map (Google Maps / OpenStreetMap).
-- **Fill levels** using color-coded markers (Green = Safe, Yellow = Moderate, Red = Warning).
-- **Alerts panel** for instant notifications when bins are nearly full.
-- **Bin statistics graphs** for quick analysis.
+SmartTrash includes a responsive web monitoring dashboard that provides real-time visualization of bin status.
 
-### Light Mode  
+### Dashboard Features
+
+- Real-time bin location tracking using interactive maps  
+  (Supports Google Maps and OpenStreetMap layers)
+
+- Color-coded fill level indicators:
+  - 🟢 Green — Safe level  
+  - 🟡 Yellow — Moderate level  
+  - 🔴 Red — Near capacity warning  
+
+- Notification panel for maintenance alerts
+
+- Statistical graphs for waste collection analysis
+
+### Light Mode Interface
+
 ![WebUI Light](./imgs/webui_light.png)
 <br>
-![WebUI Light with Graph](./imgs/webui_light_gr.png)
-### Dark Mode  
+![WebUI Light Graph View](./imgs/webui_light_gr.png)
+
+### Dark Mode Interface
+
 ![WebUI Dark](./imgs/webui_dark.png)
 <br>
-![WebUI Dark with Graph](./imgs/webui_dark_gr.png)
+![WebUI Dark Graph View](./imgs/webui_dark_gr.png)
 
 ---
-## 📱 Mobile App UI
 
-The SmartTrash **Android app** complements the web dashboard, allowing users and administrators to monitor bins on the go.
+## 📱 Mobile Application Interface
+
+The SmartTrash mobile application enables remote monitoring for administrators and operators.
+
+The application is designed to be lightweight, responsive, and suitable for field deployment.
+
+### Mobile Features
+
+- Real-time waste bin fill level monitoring  
+- Alert notification system  
+- Multi-bin supervision dashboard  
+- Optimized user interface for small screens  
 
 | ![](./imgs/ui_0.jpeg) | ![](./imgs/ui_1.jpeg) | ![](./imgs/ui_2.jpeg) |
-|------------------------|------------------------|------------------------|
+|-----------------------|-----------------------|-----------------------|
 | ![](./imgs/ui_3.jpeg) | ![](./imgs/ui_4.jpeg) | ![](./imgs/ui_5.jpeg) |
 
 ---
 
 ## ⚙️ System Overview
 
-SmartTrash integrates multiple sensors to deliver reliable data:
+SmartTrash integrates multiple sensing technologies to provide reliable environmental monitoring.
 
-- **Laser Sensor** 📏 → Measures the trash fill level inside the bin.
-- **Hall Effect Sensor** 🧲 → Detects door/lid openings for security and maintenance monitoring.
-- **GPS Module** 📡 → Sends real-time bin location for efficient route planning.
-- **Solar Power** ☀️ → Ensures sustainable and independent operation.
+### Sensor Components
 
-Data is collected and visualized in real time via the **Smart Trash Dashboard**.
+- 📏 Laser Distance Sensor — Measures internal trash fill level  
+- 📊 Gyroscope / Accelerometer Sensor — Detects bin orientation, motion, and door state behavior analysis  
+- 📡 GPS Module — Provides real-time bin localization  
+- ☀️ Solar Power System — Supports autonomous operation  
 
----
-
-## 📊 Features
-- Real-time monitoring of bin fill levels.
-- Smart alerts when bins approach capacity.
-- Interactive map with bin status.
-- Route optimization for collection.
-- Clean, responsive dashboard with **dark & light modes**.
-- Mobile app for monitoring on the go.
+Sensor data is transmitted to the backend server and visualized in real time through the monitoring dashboard.
 
 ---
 
-## 🌍 Use Case
-- Smart cities looking to optimize waste collection.
-- Reducing fuel and manpower costs by improving collection routes.
-- Encouraging sustainable and efficient waste management.
+## 📊 Core Features
+
+- Real-time waste bin monitoring  
+- Intelligent alert system for near-full bins  
+- Interactive geographic visualization  
+- Route optimization potential for waste collection  
+- Responsive dashboard with dark and light themes  
+- Mobile monitoring support  
 
 ---
 
+## 🌍 Environmental Impact
+
+SmartTrash contributes to sustainable urban development by:
+
+- Reducing unnecessary waste collection routes  
+- Improving fuel efficiency in municipal operations  
+- Supporting smart city infrastructure  
+- Promoting environmentally friendly waste management
